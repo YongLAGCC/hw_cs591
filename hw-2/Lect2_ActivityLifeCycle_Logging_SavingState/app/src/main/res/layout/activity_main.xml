@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sse.lect2_activitylifecycle_logging_savingstate.MainActivity">
+
+    <Button
+        android:id="@+id/btnCtoF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:onClick="GeneralClick"
+        android:text="Celsius >> Farenheit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtC"
+        android:layout_below="@+id/btnCtoF"
+        android:layout_marginTop="41dp"
+        android:hint="Enter Celsius" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtF"
+        android:layout_alignBottom="@+id/txtC"
+        android:layout_alignParentEnd="true"
+        android:autoText="false"
+        android:hint="Fahrenheit" />
+
+    <Button
+        android:id="@+id/btnSayHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtC"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="219dp"
+        android:text="Say Hello" />
+
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMsg"
+        android:layout_below="@+id/tvMsg"
+        android:layout_alignStart="@+id/tvMsg"
+        android:hint="Enter Text" />
+</RelativeLayout>

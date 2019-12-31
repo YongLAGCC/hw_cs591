@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tvLoginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/login_title"
+        android:textSize="31sp"
+        app:layout_constraintBottom_toTopOf="@+id/etLoginUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLoginUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_user"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etLoginUser"
+        app:layout_constraintEnd_toEndOf="@+id/tvLoginPass"
+        app:layout_constraintStart_toStartOf="@+id/tvLoginPass"
+        app:layout_constraintTop_toTopOf="@+id/etLoginUser" />
+
+    <TextView
+        android:id="@+id/tvLoginPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/login_pass"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etLoginPass"
+        app:layout_constraintEnd_toStartOf="@+id/etLoginPass"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/etLoginPass" />
+
+    <Button
+        android:id="@+id/btnLoginSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/login_submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLoginPass" />
+
+    <EditText
+        android:id="@+id/etLoginUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="@string/login_user_hint"
+        app:layout_constraintBottom_toTopOf="@+id/etLoginPass"
+        app:layout_constraintEnd_toEndOf="@+id/etLoginPass"
+        app:layout_constraintStart_toStartOf="@+id/etLoginPass"
+        app:layout_constraintTop_toBottomOf="@+id/tvLoginTitle" />
+
+    <EditText
+        android:id="@+id/etLoginPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/login_pass_hint"
+        app:layout_constraintBottom_toTopOf="@+id/btnLoginSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvLoginPass"
+        app:layout_constraintTop_toBottomOf="@+id/etLoginUser" />
+</android.support.constraint.ConstraintLayout>

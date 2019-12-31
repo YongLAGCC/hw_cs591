@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Celsius Fahrenheit Converter</string>
+    <string name="cold_msg">it\'s cold...</string>
+    <string name="hot_msg">it\'s hot...</string>
+</resources>

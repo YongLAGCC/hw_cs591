@@ -1,0 +1,20 @@
+<resources>
+<string name="app_name">W3_P3</string>
+
+<!-- login activity -->
+<string name="login_title">Simple Login</string>
+<string name="login_user">User</string>
+<string name="login_user_hint">fill username here</string>
+<string name="login_pass">Password</string>
+<string name="login_pass_hint">fill password here</string>
+<string name="login_submit">Submit</string>
+
+
+<!-- login activity -->
+<string name="game_generate">Generate 10 Random Game</string>
+<string name="game_division">/</string>
+<string name="game_submit">Submit</string>
+<string name="game_answer">Answer</string>
+<string name="game_answer_hint">Your Answer Here</string>
+
+</resources>

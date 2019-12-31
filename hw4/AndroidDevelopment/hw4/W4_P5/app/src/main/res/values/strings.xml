@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">W4_P5</string>
+
+    <string name="game_choose_letter">CHOOSE A LETTER</string>
+    <string name="game_hint">HINT:</string>
+
+    <string name="game_library">APPLE,FOOD-AMAZON,COMPANY-CHELSEA,SOCCER CLUB-PIZZA,FOOD-LAMPARD,FAMOUS SOCCER PLAYER</string>
+</resources>
