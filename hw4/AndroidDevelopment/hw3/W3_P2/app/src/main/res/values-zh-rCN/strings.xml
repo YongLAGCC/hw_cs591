@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">华氏摄氏转换器</string>
-    <string name="cold_msg">很冷...</string>
-    <string name="hot_msg">很热...</string>
-</resources>

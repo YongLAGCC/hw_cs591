@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Celsius Fahrenheit Converter</string>
-    <string name="cold_msg">hace frío</string>
-    <string name="hot_msg">hace calor</string>
-</resources>

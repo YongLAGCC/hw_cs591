@@ -1,4 +1,0 @@
-#Sun Oct 20 20:27:42 EDT 2019
-base.0=/Users/yong.zhou/Desktop/591复习/Lect5_AnimwithXMlapp/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
